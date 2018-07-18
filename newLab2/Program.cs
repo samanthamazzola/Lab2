@@ -42,7 +42,7 @@ namespace Lab2
 
 
             //loop
-            /*my No statement isn't working
+            /*my Yes conditions work, my No isn't working. want to rewrite as a boolean
             String Answer;
 
             Console.WriteLine("Continue? (y/n)");
