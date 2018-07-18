@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Lab2
 {
@@ -45,6 +45,7 @@ namespace Lab2
             String Answer;
 
             Console.WriteLine("Continue? (y/n)");
+            //instead of using ORs you can do Convert.ToInput 
             if (!(Console.ReadLine() == "y") || (Console.ReadLine() == "Y") || (Console.ReadLine() == "Yes") || (Console.ReadLine() == "YES") || (Console.ReadLine() == "yes"))
             {
                 Console.WriteLine("Enter Length (exm: 12.5): ");
@@ -69,7 +70,12 @@ namespace Lab2
                 Console.Write($"Volume: {Volume}");
                 Console.WriteLine();
             }
+            else
+            {
+                return;
+            }
             //do goes around the whole code and the while at the end, then need a bool set at true????
+            //this is my change
 
         }
     }
