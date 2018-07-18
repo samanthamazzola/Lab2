@@ -42,6 +42,7 @@ namespace Lab2
 
 
             //loop
+            /*my No statement isn't working
             String Answer;
 
             Console.WriteLine("Continue? (y/n)");
@@ -76,6 +77,7 @@ namespace Lab2
             }
             //do goes around the whole code and the while at the end, then need a bool set at true????
             //this is my change
+            */
 
         }
     }
